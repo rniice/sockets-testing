@@ -4,7 +4,7 @@ var io = require('socket.io')(server);
 
 var port = process.env.PORT || 80;
 
-server.listen(80);
+server.listen(port);
 
 app.get('/', function (req, res) {
 	console.log("sending index.html");
